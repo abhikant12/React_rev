@@ -1,0 +1,46 @@
+.container{
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.light{
+    background-color: white;
+}
+
+.dark{
+  background-color: black;
+}
+
+.light .butt{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.dark .butt{
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+/* 
+.dark.butt{
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: xx-large;
+} 
+  
+// if we do not give space b/w (.dark) and (.butt) then it not work and its means that both "dark" and "butt" are present in same class
+*/
